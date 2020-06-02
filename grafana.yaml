@@ -473,15 +473,15 @@ objects:
 
       #################################### SMTP / Emailing #####################
       [smtp]
-      enabled = false
-      host = localhost:25
-      user =
+      enabled = true
+      host = smtp.gmail.com:587
+      user = dbinternproject@gmail.com
       # If the password contains # or ; you have to wrap it with trippel quotes. Ex """#password;"""
-      password =
-      cert_file =
-      key_file =
+      password = db12345intern
+      ;cert_file =
+      ;key_file =
       skip_verify = false
-      from_address = admin@grafana.localhost
+      from_address = dbinternproject@gmail.com
       from_name = Grafana
       ehlo_identity =
 
